@@ -1,0 +1,19 @@
+
+/* textbox */
+input.error {
+    background: url("icon-fail.png") no-repeat scroll right center #ffebef;
+    color: #480000;
+}
+
+input.valid {
+    background: url("icon-ok.png") no-repeat scroll right center #e3ffe5;
+    border-color: #96b796 !important;
+    color: #002f00;
+}
+
+span.form-error.help-block {
+    color: red;
+    display: block;
+    margin-top: 6px;
+    padding-left: 0;
+}
