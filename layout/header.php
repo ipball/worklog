@@ -12,6 +12,8 @@
   <?php echo link_tag('media/plugins/datatables/dataTables.bootstrap.css'); ?>
   <!-- iCheck css -->
   <?php echo link_tag('media/plugins/iCheck/skins/square/blue.css'); ?>
+  <!-- Date picker -->
+  <?php echo link_tag('media/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css'); ?>
   <!-- sweetAlert2 -->
   <?php echo link_tag('media/css/sweetalert2.min.css'); ?>
   <!-- Font Awesome -->
@@ -40,6 +42,8 @@
 <script src="<?php echo site_url(); ?>media/plugins/datatables/dataTables.bootstrap.min.js"></script>
 <!-- iCheck script -->
 <script src="<?php echo site_url(); ?>media/plugins/iCheck/icheck.min.js"></script>
+<!-- datepicker -->
+<script src="<?php echo site_url(); ?>media/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
 <!-- FastClick -->
 <script src="<?php echo site_url(); ?>media/js/fastclick.min.js"></script>
 <!-- AdminLTE App -->
@@ -50,6 +54,8 @@
 <script src="<?php echo site_url(); ?>media/js/jquery.serializejson.min.js"></script>
 <!-- sweetAlert2 -->
 <script src="<?php echo site_url(); ?>media/js/sweetalert2.min.js"></script>
+<!-- custom script -->
+<script src="<?php echo site_url(); ?>media/js/moment.min.js"></script>
 <!-- custom script -->
 <script src="<?php echo site_url(); ?>media/js/script.js"></script>
 <script type="text/javascript">
