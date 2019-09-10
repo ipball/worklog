@@ -5,7 +5,7 @@
 2. ปรับแต่งไฟล์ setting.php ในฟังก์ชั่น site_url ให้ตรงกับ url หลักของโปรเจคงาน
     ตัวอย่าง
       กรณีเว็บหลักเป็น www.itoffside.com
-      return 'http://localhost/worklog/'.$value; แก้ไขเป็น return 'http://www.itoffside.com/'.$value;
+      return 'http://localhost/worklog/'.$value; แก้ไขเป็น return 'http://www.test.com/'.$value;
 3. ทดลองใช้งาน
   ตัวอย่าง
     user : admin , password : 1234
